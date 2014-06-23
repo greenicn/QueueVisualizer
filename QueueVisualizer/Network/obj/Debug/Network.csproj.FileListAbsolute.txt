@@ -1,0 +1,7 @@
+C:\Users\Jiachen\documents\visual studio 2013\Projects\QueueVisualizer\Network\bin\Debug\Network.dll
+C:\Users\Jiachen\documents\visual studio 2013\Projects\QueueVisualizer\Network\bin\Debug\Network.pdb
+C:\Users\Jiachen\documents\visual studio 2013\Projects\QueueVisualizer\Network\bin\Debug\EventQueue.dll
+C:\Users\Jiachen\documents\visual studio 2013\Projects\QueueVisualizer\Network\bin\Debug\EventQueue.pdb
+C:\Users\Jiachen\documents\visual studio 2013\Projects\QueueVisualizer\Network\obj\Debug\Network.csprojResolveAssemblyReference.cache
+C:\Users\Jiachen\documents\visual studio 2013\Projects\QueueVisualizer\Network\obj\Debug\Network.dll
+C:\Users\Jiachen\documents\visual studio 2013\Projects\QueueVisualizer\Network\obj\Debug\Network.pdb

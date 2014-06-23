@@ -1,0 +1,5 @@
+c:\users\jiachen\documents\visual studio 2013\Projects\QueueVisualizer\EventQueue\bin\Debug\EventQueue.dll
+c:\users\jiachen\documents\visual studio 2013\Projects\QueueVisualizer\EventQueue\bin\Debug\EventQueue.pdb
+c:\users\jiachen\documents\visual studio 2013\Projects\QueueVisualizer\EventQueue\obj\Debug\EventQueue.csprojResolveAssemblyReference.cache
+c:\users\jiachen\documents\visual studio 2013\Projects\QueueVisualizer\EventQueue\obj\Debug\EventQueue.dll
+c:\users\jiachen\documents\visual studio 2013\Projects\QueueVisualizer\EventQueue\obj\Debug\EventQueue.pdb
