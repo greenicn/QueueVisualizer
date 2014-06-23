@@ -1,0 +1,43 @@
+# lines start with "#" are comments
+# routers, in the form of
+#   name x y r g b
+# x: relative x position on screen, betwen 0 and 1
+# y: relative x position on screen, betwen 0 and 1
+# r g b: color of router, between 0 and 255
+# then end with an empty line
+R1 0.4 0.6 0 1 1
+R2 0.6 0.6 0 1 1
+
+# links, in the form of
+#   r1 r2 b d c
+# r1, r2: name of the routers
+# b: bandwidth, in bits
+# d: delay, in micro-second
+# c: queue capacity
+# then end with an empty line
+R1 R2 20000000 2000 5000
+
+# endhosts, in the form of
+# name risthop bandwidth delay capacity x y red green blue
+# then end with an empty line
+S1 R1 60000000 2000 5000 0.2 0.6 0 255 0
+D R2 60000000 2000 5000 0.8 0.6 0 255 0
+
+# FIB in the form of
+#   router dst nextHop
+# then end with an empty line
+R1 D R2
+R2 D D
+R1 S1 S1
+R2 S1 R1
+
+# Events in the form of
+#   time event params
+# time: event start time in ms
+# event: name of event, "SEND", "SENDTCP"
+# event "SEND": src srcPort dst dstPort window
+#    send at constant window
+#    multiple senders cannot send to the same port of dst
+# event "SENDTCP": src srcPort dst dstPort
+#    send using fast recovery
+0 SEND S1 1 D 1 1
